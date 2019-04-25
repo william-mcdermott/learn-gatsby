@@ -1,4 +1,5 @@
-import React, { propTypes } from 'react';
+import React from 'react';
+import PropTypes from 'prop-types';
 
 import Header from './header';
 import Footer from './footer';
@@ -16,7 +17,7 @@ const Layout = props => (
 );
 
 Layout.propTypes = {
-  children: propTypes.node
+  children: PropTypes.node
 };
 
 export default Layout;
