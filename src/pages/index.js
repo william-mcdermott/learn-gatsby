@@ -3,14 +3,12 @@ import { Link } from 'gatsby';
 
 import Layout from '../components/layout';
 
-const IndexPage = () => {
-  return (
-    <Layout>
-      <h1>Hello.</h1>
-      <h2>I'm William and I live in Austin</h2>
-      <p>Need a developer? <Link to="/contact">Contact me.</Link></p>
-    </Layout>
-  )
-}
+const IndexPage = () => (
+  <Layout>
+    <h1>Hello.</h1>
+    <h2>I&#39;m William and I live in Austin</h2>
+    <p>Need a developer? <Link to="/contact">Contact me.</Link></p>
+  </Layout>
+);
 
-export default IndexPage
+export default IndexPage;
